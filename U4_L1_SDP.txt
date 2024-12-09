@@ -1,0 +1,5 @@
+1. If the stack is changed without the size, things can break, and vice versa, which is why those variables need to be private.
+2. We should use it when removing things from the stack, because you cannot remove something that does not exist
+3. It is important to raise errors for programmers to make sure that they do not use the class or object incorrectly, and the error will give a programmer more details.
+4. If we used the top of the stack as the beginning, it would have to recreate the list each time. This would be a big O complexity of O(n), because it has to replace index zero.
+5. Unit testing is testing small functions of code. It is incorporated in this lab by the fact that the tests check every individual method for multiple things and verify that they work properly in all scenarios.
